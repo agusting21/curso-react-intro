@@ -1,11 +1,10 @@
-import logo from './platzi.webp';
+
 import { TodoCounter } from './TodoCounter';
 import { TodoSearch } from './TodoSearch';
 import { TodoList } from './TodoList';
 import { TodoItem } from './TodoItem';
 import React from 'react';
-import './App.css';
-import { CreateTodoButton } from './CreateTodoButton';
+import { CreateTodoButton } from './CreateTodoButton.js';
 
 const defaultTodos = [
   { text: 'Cortar cebolla', completed: true },
